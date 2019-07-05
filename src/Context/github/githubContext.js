@@ -1,3 +1,3 @@
 import { createContext } from 'react';
-const { Provider, GithubContext } = createContext();
-export default { GithubContext, Provider };
+const githubContext = createContext();
+export default githubContext;
